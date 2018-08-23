@@ -1,0 +1,899 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500');
+
+@font-face {
+  font-family: "DomaineSansText-Regular";
+  src: url('../fonts/DomaineSansText-Regular.otf') format("opentype");
+}
+
+.kenshofaq {
+  width               : 100%;
+  min-width           : 1280px;
+  height              : 100vh;
+  min-height          : 2878px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.kenshofaq .footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2361px;
+  height              : 517px;
+  width               : 1280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .footer .rectangle2 {
+  background-color    : rgba(19, 31, 56, 1.0);
+  top                 : 0px;
+  height              : 517px;
+  width               : 1280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .footer .a251kenshu014d2018priv {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 445px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 529px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 0.5);
+  text-align          : center;
+  letter-spacing      : -0.39px;
+  line-height         : 16.0px;
+}
+.kenshofaq .footer .app2x {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 51px;
+  height              : 83px;
+  width               : 83px;
+  position            : absolute;
+  margin              : 0;
+  left                : 599px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .footer .weu2019relookingforth {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 289px;
+  height              : auto;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 473px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 0.8);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.kenshofaq .footer .getstartedbecomea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 384px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.kenshofaq .footer .line2copy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 243px;
+  height              : 2px;
+  width               : 1202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.kenshofaq .footer .jobopenings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 385px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 579px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.kenshofaq .hero {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 436px;
+  width               : 1280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .hero .illustration {
+  background-color    : rgba(255, 204, 184, 1.0);
+  top                 : 0px;
+  height              : 436px;
+  width               : 1280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .hero .illustration .rectangle2 {
+  background-color    : rgba(255, 204, 184, 1.0);
+  top                 : 0px;
+  height              : 436px;
+  width               : 1280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .hero .illustration .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -78px;
+  height              : 620px;
+  width               : 726px;
+  position            : absolute;
+  margin              : 0;
+  left                : 864px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .hero .illustration .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -8px;
+  height              : 240px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 185px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .hero .illustration .fill6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 288px;
+  height              : 573px;
+  width               : 154px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .hero .justthefacts {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 184px;
+  height              : auto;
+  width               : 879px;
+  position            : absolute;
+  margin              : 0;
+  left                : 201px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "DomaineSansText-Regular", Helvetica, Arial, serif;
+  font-size           : 68.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -3.19px;
+  line-height         : 90.0px;
+}
+.kenshofaq .hero .haveadifferentque {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 285px;
+  height              : auto;
+  width               : 391px;
+  position            : absolute;
+  margin              : 0;
+  left                : 445px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.kenshofaq .hero .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 339px;
+  height              : 2px;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 472px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .simplyclickonu2018get {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 674px;
+  height              : auto;
+  width               : 781px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(20, 31, 56, 0.6);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.kenshofaq .simplyclickonu2018bec {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1609px;
+  height              : auto;
+  width               : 781px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(20, 31, 56, 0.6);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.kenshofaq .forthetimebeing {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1765px;
+  height              : auto;
+  width               : 781px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(20, 31, 56, 0.6);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.kenshofaq .wearenotcharging {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1992px;
+  height              : auto;
+  width               : 781px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(20, 31, 56, 0.6);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.kenshofaq .wewillhelphandle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2194px;
+  height              : auto;
+  width               : 781px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(20, 31, 56, 0.6);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.kenshofaq .forthetimebeing1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 881px;
+  height              : auto;
+  width               : 781px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(20, 31, 56, 0.6);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.kenshofaq .wearenotcharging1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1111px;
+  height              : auto;
+  width               : 781px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(20, 31, 56, 0.6);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.kenshofaq .wedowanttoheara {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1317px;
+  height              : auto;
+  width               : 781px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(20, 31, 56, 0.6);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.kenshofaq .line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 806px;
+  height              : 1px;
+  width               : 997px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .line2copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1690px;
+  height              : 2px;
+  width               : 997px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .line2copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1918px;
+  height              : 2px;
+  width               : 997px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .line2copy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2122px;
+  height              : 2px;
+  width               : 997px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .line2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1036px;
+  height              : 1px;
+  width               : 997px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .line2copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1242px;
+  height              : 1px;
+  width               : 997px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .howdouserssetup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 634px;
+  height              : auto;
+  width               : 620px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.kenshofaq .howdoprovidersset {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1569px;
+  height              : auto;
+  width               : 620px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.kenshofaq .howdoyoutakeand {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1725px;
+  height              : auto;
+  width               : 620px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.kenshofaq .howdoespricingwor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1952px;
+  height              : auto;
+  width               : 620px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.kenshofaq .areprovidersexpect {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2154px;
+  height              : auto;
+  width               : 770px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.kenshofaq .howdoyoutakeand1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 841px;
+  height              : auto;
+  width               : 620px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.kenshofaq .howdoespricingwor1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1071px;
+  height              : auto;
+  width               : 620px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.kenshofaq .doyouofferrefunds {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1277px;
+  height              : auto;
+  width               : 620px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.kenshofaq .general {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 541px;
+  height              : auto;
+  width               : 629px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "DomaineSansText-Regular", Helvetica, Arial, serif;
+  font-size           : 44.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : left;
+  letter-spacing      : -1.69px;
+  line-height         : 57.0px;
+}
+.kenshofaq .forproviders {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1476px;
+  height              : auto;
+  width               : 629px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "DomaineSansText-Regular", Helvetica, Arial, serif;
+  font-size           : 44.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : left;
+  letter-spacing      : -1.69px;
+  line-height         : 57.0px;
+}
+.kenshofaq .nav {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 101px;
+  width               : 1282px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .nav .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 1280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .nav .logokenshodark2x {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : 43px;
+  width               : 190px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .nav .cta {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 60px;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1101px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .nav .cta .rectangle5copy {
+  background-color    : rgba(255, 115, 71, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .nav .cta .getstarted {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.23px;
+  line-height         : 21.0px;
+}
+.kenshofaq .nav .cta2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 25px;
+  width               : 167px;
+  position            : absolute;
+  margin              : 0;
+  left                : 905px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .nav .cta2 .becomeaprovider {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 115, 71, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kenshofaq .nav .cta2 .line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 2px;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kenshofaq .nav .line21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 99px;
+  height              : 2px;
+  width               : 1282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

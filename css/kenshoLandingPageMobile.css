@@ -1,0 +1,2160 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500');
+
+@font-face {
+  font-family: "DomaineSansText-Regular";
+  src: url('../fonts/DomaineSansText-Regular.otf') format("opentype");
+}
+
+.kensholandingpagemobile {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 3831px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.kensholandingpagemobile .footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3674px;
+  height              : 158px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .footer .rectangle2 {
+  background-color    : rgba(19, 31, 56, 1.0);
+  top                 : 0px;
+  height              : 158px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .footer .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 122px;
+  height              : 21px;
+  width               : 283px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .footer .group3 .privacy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 149px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 0.5);
+  text-align          : left;
+  letter-spacing      : -0.5px;
+  line-height         : 21.0px;
+}
+.kensholandingpagemobile .footer .group3 .a251kenshu014d2018 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 0.5);
+  text-align          : left;
+  letter-spacing      : -0.5px;
+  line-height         : 21.0px;
+}
+.kensholandingpagemobile .footer .group3 .terms {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 0.5);
+  text-align          : left;
+  letter-spacing      : -0.5px;
+  line-height         : 21.0px;
+}
+.kensholandingpagemobile .footer .app2x {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : 70px;
+  width               : 70px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .footer .group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 25px;
+  width               : 135px;
+  position            : absolute;
+  margin              : 0;
+  left                : 164px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .footer .group4 .logofacebook2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .footer .group4 .logoinstagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .footer .group4 .logotwitter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 20px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 718px;
+  height              : 1230px;
+  width               : 327px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .findyourthing1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 291px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "DomaineSansText-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.38px;
+  line-height         : 39.0px;
+}
+.kensholandingpagemobile .findyourthing .likeyouyourwelln {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 53px;
+  height              : auto;
+  width               : 291px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(20, 31, 56, 0.6);
+  text-align          : center;
+  letter-spacing      : -0.18px;
+  line-height         : 24.0px;
+}
+.kensholandingpagemobile .findyourthing .practices {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 212px;
+  height              : 1017px;
+  width               : 327px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .line5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1017px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 161px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 170px;
+  height              : 3px;
+  width               : 307px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .line2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 338px;
+  height              : 2px;
+  width               : 307px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .line2copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 507px;
+  height              : 2px;
+  width               : 307px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .line2copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 845px;
+  height              : 2px;
+  width               : 307px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .line2copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 676px;
+  height              : 2px;
+  width               : 307px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .yoga {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 963px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 22.0px;
+}
+.kensholandingpagemobile .findyourthing .practices .sound {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 963px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 22.0px;
+}
+.kensholandingpagemobile .findyourthing .practices .nutrition {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 796px;
+  height              : auto;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 22.0px;
+}
+.kensholandingpagemobile .findyourthing .practices .naturopathy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 622px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 22.0px;
+}
+.kensholandingpagemobile .findyourthing .practices .meditation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 622px;
+  height              : auto;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 22.0px;
+}
+.kensholandingpagemobile .findyourthing .practices .readings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 796px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 22.0px;
+}
+.kensholandingpagemobile .findyourthing .practices .massage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 458px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 22.0px;
+}
+.kensholandingpagemobile .findyourthing .practices .energy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 458px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 22.0px;
+}
+.kensholandingpagemobile .findyourthing .practices .coaching {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 285px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 22.0px;
+}
+.kensholandingpagemobile .findyourthing .practices .breathwork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 285px;
+  height              : auto;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 22.0px;
+}
+.kensholandingpagemobile .findyourthing .practices .bodywork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 116px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 22.0px;
+}
+.kensholandingpagemobile .findyourthing .practices .acupuncture {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 116px;
+  height              : auto;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 22.0px;
+}
+.kensholandingpagemobile .findyourthing .practices .iconacupuncture {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 60px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconacupuncture .stroke1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 48px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconacupuncture .group12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconacupuncture .group12 .stroke2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconacupuncture .group12 .stroke4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 47px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconacupuncture .group12 .stroke6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 11px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconacupuncture .group12 .stroke8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 22px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconacupuncture .group12 .stroke10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconbodywork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 64px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 219px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconbodywork .stroke1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconbodywork .stroke3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 51px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconbreathwork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 203px;
+  height              : 57px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconbreathwork .stroke1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconbreathwork .stroke3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : 7px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconbreathwork .stroke5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 13px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconbreathwork .stroke7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : 6px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconcoaching {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 208px;
+  height              : 49px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconcoaching .stroke1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconcoaching .stroke3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 41px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconenergy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 376px;
+  height              : 61px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconenergy .stroke1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconenergy .stroke3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 45px;
+  height              : 15px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconenergy .stroke5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 13px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconenergy .stroke7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 13px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconenergy .stroke9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 13px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconenergy .stroke11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 13px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconenergy .stroke13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : 15px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconenergy .stroke15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmassage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 374px;
+  height              : 64px;
+  width               : 74px;
+  position            : absolute;
+  margin              : 0;
+  left                : 208px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmassage .stroke1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 8px;
+  width               : 74px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmassage .stroke3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmassage .stroke5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 30px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmassage .stroke7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmassage .stroke9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 12px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmassage .stroke11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 11px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmassage .stroke13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmassage .stroke15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 30px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmassage .stroke17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 9px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmassage .stroke19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 12px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmassage .stroke21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 11px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmeditation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 536px;
+  height              : 65px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmeditation .stroke1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmeditation .stroke3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 32px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmeditation .stroke5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 48px;
+  height              : 17px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconmeditation .stroke7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 52px;
+  height              : 13px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconnaturopathy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 535px;
+  height              : 67px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 213px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconnaturopathy .stroke1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconnaturopathy .stroke3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : 33px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconnaturopathy .stroke5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 11px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconnaturopathy .stroke7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 14px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconnaturopathy .stroke9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 29px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconnaturopathy .stroke11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 18px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconnaturopathy .stroke13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 23px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconnaturopathy .stroke15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconnaturopathy .stroke17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 11px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconnutrition {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 710px;
+  height              : 64px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconnutrition .stroke1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconnutrition .stroke3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 45px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconnutrition .stroke5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 16px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconreadings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 711px;
+  height              : 63px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconreadings .stroke1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 48px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconreadings .group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 63px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconreadings .group8 .stroke2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 50px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconreadings .group8 .stroke4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconreadings .group8 .stroke6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconsound {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 888px;
+  height              : 51px;
+  width               : 63px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconsound .stroke3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 14px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconsound .stroke1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 14px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconsound .stroke7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 10px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconsound .stroke8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 34px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconsound .stroke9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconsound .stroke12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 42px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconsound .stroke13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 26px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconsound .stroke14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 16px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconsound .stroke15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 34px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconyoga {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 883px;
+  height              : 60px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 217px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconyoga .stroke1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .findyourthing .practices .iconyoga .stroke3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 47px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .forproviders {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2002px;
+  height              : 826px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .forproviders .rectangle2 {
+  background-color    : rgba(20, 31, 56, 0.02);
+  top                 : 0px;
+  height              : 826px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .forproviders .shareyourpassion {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 98px;
+  height              : auto;
+  width               : 292px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "DomaineSansText-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : left;
+  letter-spacing      : -1.15px;
+  line-height         : 39.0px;
+}
+.kensholandingpagemobile .forproviders .forproviders1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 68px;
+  height              : auto;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.6px;
+  line-height         : 22.0px;
+}
+.kensholandingpagemobile .forproviders .youfocusonpractic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 481px;
+  height              : auto;
+  width               : 265px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(20, 31, 56, 0.6);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.kensholandingpagemobile .forproviders .cta {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 678px;
+  height              : 60px;
+  width               : 254px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .forproviders .cta .rectangle5copy {
+  background-color    : rgba(19, 31, 56, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 254px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .forproviders .cta .applytobeaprovid {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : 244px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.23px;
+  line-height         : 21.0px;
+}
+.kensholandingpagemobile .forproviders .providers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 198px;
+  height              : 258px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .forproviders .providers .image {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 133px;
+  height              : 91px;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .forproviders .providers .image .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 91px;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .forproviders .providers .image .profilealexandre {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 91px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : -9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .forproviders .providers .imagecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 124px;
+  width               : 165px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .forproviders .providers .imagecopy .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 124px;
+  width               : 165px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .forproviders .providers .imagecopy .jaredmatthewweiss {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -5px;
+  height              : 130px;
+  width               : 217px;
+  position            : absolute;
+  margin              : 0;
+  left                : -38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .forproviders .providers .imagecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 220px;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 175px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .forproviders .providers .imagecopy2 .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 220px;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .forproviders .providers .imagecopy2 .profilealexandre {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 221px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : -109px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .why {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2828px;
+  height              : 924px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .why .phototop {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 924px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(-180deg); /* IE 9 */
+  -webkit-transform   : rotate(-180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-180deg);
+}
+.kensholandingpagemobile .why .photobottom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 305px;
+  height              : 544px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(-180deg); /* IE 9 */
+  -webkit-transform   : rotate(-180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-180deg);
+}
+.kensholandingpagemobile .why .whykenshu014d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 85px;
+  height              : auto;
+  width               : 197px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "DomaineSansText-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -1.15px;
+  line-height         : 39.0px;
+}
+.kensholandingpagemobile .why .weu2019retiredofbeing {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 146px;
+  height              : auto;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.kensholandingpagemobile .why .cta {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 490px;
+  height              : 60px;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .why .cta .rectangle5copy {
+  background-color    : rgba(19, 31, 56, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .why .cta .joinourteam {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.23px;
+  line-height         : 21.0px;
+}
+.kensholandingpagemobile .hero {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 650px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .hero .heroimage {
+  background-color    : rgba(20, 31, 56, 1.0);
+  top                 : 0px;
+  height              : 650px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .hero .heroimage .mask {
+  background-color    : rgba(20, 31, 56, 1.0);
+  top                 : 0px;
+  height              : 650px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .hero .heroimage .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 400px;
+  height              : 228px;
+  width               : 267px;
+  position            : absolute;
+  margin              : 0;
+  left                : 188px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .hero .heroimage .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : 88px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : -18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .hero .heroimage .fill6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 494px;
+  height              : 211px;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .hero .livelifewell {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 186px;
+  height              : auto;
+  width               : 304px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "DomaineSansText-Regular", Helvetica, Arial, serif;
+  font-size           : 38.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -1.46px;
+  line-height         : 49.0px;
+}
+.kensholandingpagemobile .hero .discoverwellnesspr {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 243px;
+  height              : auto;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.kensholandingpagemobile .hero .group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 420px;
+  height              : 25px;
+  width               : 114px;
+  position            : absolute;
+  margin              : 0;
+  left                : 103px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .hero .group4 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 114px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .hero .group4 .group2 .weu2019rehiring {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.kensholandingpagemobile .hero .group4 .group2 .line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 2px;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .hero .cta {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 340px;
+  height              : 60px;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .hero .cta .rectangle5copy {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 218px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.kensholandingpagemobile .hero .cta .becomeaprovider {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : 189px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Work Sans", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(19, 31, 56, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.23px;
+  line-height         : 21.0px;
+}
+.kensholandingpagemobile .hero .logokenshodark2x {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 37px;
+  width               : 161px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
