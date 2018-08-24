@@ -1,0 +1,168 @@
+section {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.orng {
+  color: rgba(255, 115, 71, 1.0);
+}
+
+.orng-bg {
+  background-color: rgba(255, 115, 71, 1.0);
+}
+
+/* HERO SECTION */
+
+.hero {
+  background-image: url('../img/herobg.png');
+  background-size: cover;
+  background-position: center center;
+  min-height: 620px;
+}
+
+.hero .logokenshodark2x {
+  width: 190px;
+  height: auto;
+  padding: 30px;
+}
+
+.hero-intro {
+  text-align: center;
+  color: white;
+  max-width: 608px;
+  margin: auto;
+  padding: 50px;
+}
+
+.hero-intro h1 {
+  font-size: 68px;
+  font-family: "DomaineSansText-Regular", Optima, Georgia, serif;
+  margin: 20px;
+}
+
+.hero-intro p {
+  line-height: 1.6em;
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.hero-intro .cta {
+  display: block;
+  box-sizing: border-box;
+  color: white;
+  margin: auto;
+  padding: 20px;
+  text-decoration: none;
+  width: 167px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.hero-intro .link-container {
+  margin: 20px;
+}
+
+.hero-intro .provider-application {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+  border-bottom: 2px solid #ddd;
+  padding: 50px 0 10px;
+}
+
+.testimonials .previous img, .testimonials .next img {
+  width: 9px;
+  height: 8px;
+  opacity: 0.8;
+}
+
+.testimonials .previous {
+  transform: rotate(-135deg);
+}
+
+.testimonials .next {
+  transform: rotate(-315deg);
+}
+
+.testimonials .carousel {
+  display: flex;
+  max-width: 850px;
+  margin: auto;
+  align-items: center;
+}
+
+.testimonials .carousel .testimonial-holder {
+  flex: 1;
+  padding: 0 50px;
+}
+
+.testimonial-holder .testimonial-text {
+  text-align: center;
+  color: rgba(20, 31, 56, 0.6);
+  line-height: 1.4em;
+}
+
+.testimonial-holder .testimonial-person {
+  display: flex;
+  align-items: center;
+  width: 415px;
+  margin: 20px auto;
+}
+
+.testimonial-person img {
+  width: 68px;
+}
+
+.testimonial-person .bio {
+  margin-left: 15px;
+}
+
+.testimonial-person .bio p {
+  font-size: 12px;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
+.carousel-dots {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-dots img {
+  height: 6px;
+  width: 6px;
+  margin: 5px;
+}
+
+/* HOW IT WORKS */
+
+.howitworks {
+  padding: 70px;
+  text-align: center;
+}
+
+.howitworks h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.howitworks .threeup {
+  display: flex;
+}
+
+.threeup .col {
+  flex: 1;
+  padding: 20px 50px;
+}
+
