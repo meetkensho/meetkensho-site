@@ -576,6 +576,25 @@ section, article, footer, header {
   }
 }
 
+/* ================= TERMS AND CONDITIONS ================ */
+
+.tc {
+  max-width: 1000px;
+  font-weight: 500;
+  line-height: 1.5em;
+  padding: 20px;
+}
+
+.tc h1 {
+  font-family: "DomaineSansText-Regular", Optima, Georgia, serif;
+  font-size: 44px;
+  margin: 30px 0;
+  letter-spacing: -1.7px;
+  text-align: center;
+  margin: 50px auto;
+  line-height: 1.5em;
+}
+
 
 /* =============== GLOBAL STYLES =================== */
 
