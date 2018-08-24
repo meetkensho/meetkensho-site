@@ -1,6 +1,7 @@
 section {
   max-width: 1280px;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .orng {
@@ -46,17 +47,21 @@ section {
   margin: 30px 0;
 }
 
-.hero-intro .cta {
+.cta {
   display: block;
   box-sizing: border-box;
   color: white;
-  margin: auto;
   padding: 20px;
   text-decoration: none;
   width: 167px;
   border-radius: 4px;
   font-weight: 500;
   font-size: 18px;
+  text-align: center;
+}
+
+.hero-intro .cta {
+  margin: auto;
 }
 
 .hero-intro .link-container {
@@ -159,10 +164,287 @@ section {
 
 .howitworks .threeup {
   display: flex;
+  padding-top: 50px;
 }
 
 .threeup .col {
   flex: 1;
   padding: 20px 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .threeup {
+    flex-direction: column;
+  }
+}
+
+.howitworks .threeup .col img {
+  height: 68px;
+  /* margin-bottom: 30px; */
+}
+
+.threeup .col h4 {
+  font-family: "DomaineSansText-Regular", Optima, Georgia, serif;
+  font-size: 1.5em;
+  margin: 30px 0 20px;
+}
+
+.threeup .col p {
+  color: rgba(20, 31, 56, 0.6);
+  line-height: 1.4em;
+}
+
+/* PRACTICES */
+
+.practices {
+  display: flex;
+  background-color: #fafbfb;
+  padding: 80px;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .practices {
+    flex-direction: column;
+  }
+  
+  .practices > div {
+    margin: 30px 0;
+  }
+}
+
+.practices > div {
+  flex: 1;
+}
+
+.practice-info {
+  padding: 0 50px;
+}
+
+.practice-info h3 {
+  font-family: "DomaineSansText-Regular", Optima, Georgia, serif;
+  font-size: 44px;
+  margin: 30px 0;
+  letter-spacing: -1.7px;
+}
+
+.practice-info p {
+  max-width: 345px;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: rgba(20, 31, 56, 0.6);
+  margin-bottom: 30px;
+}
+
+.practice-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.practice-card {
+  flex: 1;
+  box-sizing: border-box;
+  flex-basis: 33%;
+  min-height: 132px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.practice-card img {
+  height: 51px;
+}
+
+.practice-card span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 14px;
+}
+
+.practice-card:nth-of-type(3n - 2), .practice-card:nth-of-type(3n - 1) {
+  border-right: 1px solid #eee;
+}
+
+.practice-card:nth-last-of-type(n + 4) {
+  border-bottom: 1px solid #eee;
+}
+
+/* PROVIDERS */
+
+.providers {
+  display: flex;
+  align-items: center;
+  padding: 100px 30px;
+  border-bottom: 1px solid #eee;
+}
+
+@media screen and (max-width: 768px) {
+  .providers {
+    flex-direction: column;
+  }
+}
+
+.providers > div {
+  flex: 1 50%;
+}
+
+.providers-img img {
+  max-width: 100%;
+}
+
+.providers-text {
+  padding: 80px;
+  box-sizing: border-box;
+}
+
+.providers-text .intro {
+  display: block;
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+}
+
+.providers-text h3 {
+  font-family: "DomaineSansText-Regular", Optima, Georgia, serif;
+  font-size: 44px;
+  margin: 20px 0;
+  letter-spacing: -1.7px;
+  line-height: 1.4em;
+}
+
+.providers-text p {
+  color: rgba(20, 31, 56, 0.6);
+  line-height: 1.4em;
+  max-width: 440px;
+  margin: 20px 0;
+}
+
+.providers-text .providers-application {
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 115, 71, 1.0);
+}
+
+/* WHY */
+
+.why-head {
+  padding: 80px;
+  text-align: center;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
+.why-head img {
+  width: 158px;
+  margin-bottom: 15px;
+}
+
+.why .twoup {
+  display: flex;
+}
+
+.why .twoup > div {
+  flex: 1;
+  flex-basis: 50%;
+}
+
+.whyimg {
+  background-image: url("../img/kensholandingpage-photo.png");
+  background-size: cover;
+  background-position: center center;
+  transform: rotate(180deg);
+}
+
+.whytext {
+  padding: 50px 80px 50px 125px;
+  box-sizing: border-box;
+}
+
+.whytext h3 {
+  font-family: "DomaineSansText-Regular", Optima, Georgia, serif;
+  font-size: 44px;
+  margin: 30px 0;
+  letter-spacing: -1.7px;
+}
+
+.whytext p {
+  color: rgba(20, 31, 56, 0.6);
+  line-height: 1.4em;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+/* SIGNUP */
+
+.signup {
+  background-image: url("../img/joinusbg.png");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 670px;
+}
+
+.joinus {
+  max-width: 448px;
+  text-align: center;
+}
+
+.joinus h3 {
+  font-size: 68px;
+  letter-spacing: -3.81px;
+  font-family: "DomaineSansText-Regular", Optima, Georgia, serif;
+  margin: 30px 0;
+}
+
+.joinus p {
+  color: rgba(20, 31, 56, 0.6);
+  line-height: 1.4em;
+  margin: 20px 0;
+}
+
+.joinus form {
+  display: flex;
+  margin: 30px 0;
+}
+
+.joinus form input[type=email] {
+  flex-grow: 3;
+  border: 1px solid rgba(255, 115, 71, 1.0);
+  padding: 18px;
+  font-family: 'work sans', sans-serif;
+  font-size: 18px;
+  border-radius: 4px 0 0 4px;
+}
+
+.joinus form input[type=submit] {
+  background-color:  rgba(255, 115, 71, 1.0);
+  flex-grow: 1;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-family: 'work sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 0 4px 4px 0;
+}
+
+.joinus .social {
+  display: flex;
+  width: 160px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.joinus .social img {
+  height: 25px;
+  width: 25px;
 }
 

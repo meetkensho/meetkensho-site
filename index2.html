@@ -59,34 +59,130 @@
       <h3>Wellness Made Easy</h3>
       <div class="threeup">
         <div class="col">
-          <img src="" alt="">
+          <img src="./img/quotes-icon-2x.png" alt="Quotes Icon">
           <h4>Tell us about yourself</h4>
           <p>Answer a few simple questions about you and your wellness goals.</p>
         </div>
         <div class="col">
-          <img src="" alt="">
+          <img src="./img/checks-icon-2x.png" alt="Check Icon">
           <h4>See your recommendations</h4>
           <p>Our expert team curates the best providers just for you.</p>
         </div>
         <div class="col">
-          <img src="" alt="">
+          <img src="./img/heart-icon-2x.png" alt="Heart Icon">
           <h4>Get connected</h4>
           <p>Tell us which providers you’re curious about and we’ll kick things off with a friendly introduction.</p>
         </div>
       </div>
-
     </section>
     <section class="practices">
-
+      <div class="practice-info">
+        <h3>Find your thing</h3>
+        <p>Easily find what you need to feel well. Unsure where to start? Our support team is always available for real talk
+          and honest answers. There are no stupid questions.</p>
+        <a href="#" class="cta orng-bg">Get Started</a>
+      </div>
+      <div class="practice-list">
+        <div class="practice-card">
+          <img src="./img/practiceicon-acupuncture.png" alt="">
+          <span>acupuncture</span>
+        </div>
+        <div class="practice-card">
+          <img src="./img/practiceicon-bodywork.png" alt="">
+          <span>bodywork</span>
+        </div>
+        <div class="practice-card">
+          <img src="./img/practiceicon-breathwork.png" alt="">
+          <span>breathwork</span>
+        </div>
+        <div class="practice-card">
+          <img src="./img/practiceicon-meditation.png" alt="">
+          <span>meditation</span>
+        </div>
+        <div class="practice-card">
+          <img src="./img/practiceicon-naturopathy.png" alt="">
+          <span>naturopathy</span>
+        </div>
+        <div class="practice-card">
+          <img src="./img/practiceicon-nutrition.png" alt="">
+          <span>nutrition</span>
+        </div>
+        <div class="practice-card">
+          <img src="./img/practiceicon-coaching.png" alt="">
+          <span>coaching</span>
+        </div>
+        <div class="practice-card">
+          <img src="./img/practiceicon-energy.png" alt="">
+          <span>energy</span>
+        </div>
+        <div class="practice-card">
+          <img src="./img/practiceicon-massage.png" alt="">
+          <span>massage</span>
+        </div>
+        <div class="practice-card">
+          <img src="./img/practiceicon-readings.png" alt="">
+          <span>readings</span>
+        </div>
+        <div class="practice-card">
+          <img src="./img/practiceicon-sound.png" alt="">
+          <span>sound</span>
+        </div>
+        <div class="practice-card">
+          <img src="./img/practiceicon-yoga.png" alt="">
+          <span>yoga</span>
+        </div>
+      </div>
     </section>
     <section class="providers">
-
+      <div class="providers-img">
+        <img src="./img/providers.png" alt="Providers" />
+      </div>
+      <div class="providers-text">
+        <span class="intro">For Providers</span>
+        <h3>Share your passion. Grow your practice.</h3>
+        <p>We know you’re in the business of providing, but who is providing for you? Let us handle the business stuff so you
+          can focus on the most important thing: your practice. Join Kenshō: an invite-only community of the world’s top
+          holistic health and wellness providers. Gain access to results-driven tools, consulting, referral opportunities,
+          and professional support.</p>
+        <a href="#" class="providers-application orng">Provider Application</a>
+      </div>
     </section>
     <section class="why">
-
+      <div class="why-head">
+        <img src="./img/japanese.png" alt="Kensho">
+        <p>Kenshō (Japanese, noun):</p>
+        <p>to cultivate insight and awaken through daily practice</p>
+      </div>
+      <div class="twoup">
+        <div class="whytext">
+          <h3>Why Kenshō?</h3>
+          <p>Wherever you are, whatever you feel, we’ve been there too. We’re all human. And whether you’re on a high, at a
+            low, or somewhere in between, being alive is, well, a lot.</p>
+          <p>Wellness is not an aspirational measure of perfection, it’s about balance and truly accepting exactly where you
+            are while working towards where you want to go.</p>
+          <p>Sometimes that means getting "well" by exploring a more holistic form of care that considers the whole person—body,
+            mind, spirit. Other times it’s about expanding your limits and simply aiming higher. </p>
+          <p>We’re on a mission to ignite the potential of every person and bring the world to a new way of being. That’s why
+            we created Kenshō, a network of the world’s top holistic health and wellness providers, dedicated to helping
+            you try new things and discover pieces of yourself you never knew existed.</p>
+        </div>
+        <div class="whyimg"></div>
+      </div>
     </section>
     <section class="signup">
-
+      <div class="joinus">
+        <h3>Join us</h3>
+        <p>We're just getting started—there's much more to come. Get the latest delivered to you first.</p>
+        <form>
+          <input type="email" placeholder="Your email" name="email" />
+          <input type="submit" value="Subscribe" />
+        </form>
+        <div class="social">
+          <img src="./img/kensholandingpage-logofacebook-2@2x.png" alt="">
+          <img src="./img/kensholandingpage-logoinstagram@2x.png" alt="">
+          <img src="./img/kensholandingpage-logotwitter@2x.png" alt="">
+        </div>
+      </div>
     </section>
     <footer>
 
@@ -95,6 +191,8 @@
 
 
   <script>
+    document.querySelector('form').addEventListener('submit', e => e.preventDefault())
+
     anima_isHidden = function (e) {
       if (!(e instanceof HTMLElement)) return !1;
       if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
