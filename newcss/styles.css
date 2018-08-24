@@ -1,4 +1,4 @@
-section {
+section, footer {
   max-width: 1280px;
   margin: auto;
   box-sizing: border-box;
@@ -24,7 +24,7 @@ section {
 .hero .logokenshodark2x {
   width: 190px;
   height: auto;
-  padding: 30px;
+  padding: 28px;
 }
 
 .hero-intro {
@@ -38,13 +38,14 @@ section {
 .hero-intro h1 {
   font-size: 68px;
   font-family: "DomaineSansText-Regular", Optima, Georgia, serif;
-  margin: 20px;
+  margin: 40px 0 15px;
+  letter-spacing: -3.19px;
 }
 
 .hero-intro p {
   line-height: 1.6em;
   font-size: 18px;
-  margin: 30px 0;
+  margin: 25px 0 40px 0;
 }
 
 .cta {
@@ -72,6 +73,7 @@ section {
   color: white;
   text-decoration: none;
   border-bottom: 1px solid white;
+  padding-bottom: 2px;
   font-weight: 500;
   font-size: 18px;
 }
@@ -79,8 +81,8 @@ section {
 /* TESTIMONIALS */
 
 .testimonials {
-  border-bottom: 2px solid #ddd;
-  padding: 50px 0 10px;
+  border-bottom: 1px solid #eee;
+  padding: 60px 0 10px;
 }
 
 .testimonials .previous img, .testimonials .next img {
@@ -99,7 +101,7 @@ section {
 
 .testimonials .carousel {
   display: flex;
-  max-width: 850px;
+  max-width: 820px;
   margin: auto;
   align-items: center;
 }
@@ -112,7 +114,7 @@ section {
 .testimonial-holder .testimonial-text {
   text-align: center;
   color: rgba(20, 31, 56, 0.6);
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 
 .testimonial-holder .testimonial-person {
@@ -127,12 +129,12 @@ section {
 }
 
 .testimonial-person .bio {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 .testimonial-person .bio p {
   font-size: 12px;
-  line-height: 1.4em;
+  line-height: 1.5em;
   font-weight: 500;
 }
 
@@ -151,7 +153,7 @@ section {
 /* HOW IT WORKS */
 
 .howitworks {
-  padding: 70px;
+  padding: 80px 50px;
   text-align: center;
 }
 
@@ -169,7 +171,7 @@ section {
 
 .threeup .col {
   flex: 1;
-  padding: 20px 50px;
+  padding: 20px 40px;
 }
 
 @media screen and (max-width: 768px) {
@@ -187,11 +189,12 @@ section {
   font-family: "DomaineSansText-Regular", Optima, Georgia, serif;
   font-size: 1.5em;
   margin: 30px 0 20px;
+  letter-spacing: -1px;
 }
 
 .threeup .col p {
   color: rgba(20, 31, 56, 0.6);
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 
 /* PRACTICES */
@@ -199,8 +202,9 @@ section {
 .practices {
   display: flex;
   background-color: #fafbfb;
-  padding: 80px;
+  padding: 60px;
   align-items: center;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
@@ -215,10 +219,11 @@ section {
 
 .practices > div {
   flex: 1;
+  box-sizing: border-box;
 }
 
 .practice-info {
-  padding: 0 50px;
+  padding: 0 0 0 80px;
 }
 
 .practice-info h3 {
@@ -231,14 +236,22 @@ section {
 .practice-info p {
   max-width: 345px;
   font-size: 16px;
-  line-height: 1.4em;
+  line-height: 1.5em;
   color: rgba(20, 31, 56, 0.6);
   margin-bottom: 30px;
+}
+
+.practice-info p a {
+  text-decoration: none;
+  color: rgba(20, 31, 56, 0.6);
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgba(20, 31, 56, 0.6);
 }
 
 .practice-list {
   display: flex;
   flex-wrap: wrap;
+  flex-basis: 542px;
 }
 
 .practice-card {
@@ -314,12 +327,12 @@ section {
   font-size: 44px;
   margin: 20px 0;
   letter-spacing: -1.7px;
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 
 .providers-text p {
   color: rgba(20, 31, 56, 0.6);
-  line-height: 1.4em;
+  line-height: 1.5em;
   max-width: 440px;
   margin: 20px 0;
 }
@@ -328,15 +341,20 @@ section {
   font-weight: 500;
   font-size: 18px;
   text-decoration: none;
+  padding-bottom: 2px;
   border-bottom: 1px solid rgba(255, 115, 71, 1.0);
 }
 
 /* WHY */
 
+.why {
+  padding: 0 40px;
+}
+
 .why-head {
   padding: 80px;
   text-align: center;
-  line-height: 1.4em;
+  line-height: 1.5em;
   font-weight: 500;
 }
 
@@ -362,7 +380,7 @@ section {
 }
 
 .whytext {
-  padding: 50px 80px 50px 125px;
+  padding: 50px 80px 50px 90px;
   box-sizing: border-box;
 }
 
@@ -375,7 +393,7 @@ section {
 
 .whytext p {
   color: rgba(20, 31, 56, 0.6);
-  line-height: 1.4em;
+  line-height: 1.5em;
   margin: 20px 0;
   font-size: 14px;
 }
@@ -406,7 +424,7 @@ section {
 
 .joinus p {
   color: rgba(20, 31, 56, 0.6);
-  line-height: 1.4em;
+  line-height: 1.5em;
   margin: 20px 0;
 }
 
@@ -446,5 +464,63 @@ section {
 .joinus .social img {
   height: 25px;
   width: 25px;
+}
+
+/* footer */
+
+footer {
+  background-color: rgba(19, 31, 56, 1.0);
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+footer nav {
+  border-bottom: 2px solid rgba(255,255,255,0.1);
+}
+
+footer nav img {
+  height: 83px;
+  width: 83px;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+footer nav ul li a {
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+footer .jobs p {
+  line-height: 1.5em;
+  margin: 50px auto 20px;
+  color: rgba(255,255,255,0.7);
+  font-size: 14px;
+  max-width: 334px;
+}
+
+footer .jobs a {
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+footer .copyright {
+  margin-top: 30px;
+}
+
+footer .copyright p, footer .copyright a {
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  font-size: 12px;
 }
 
