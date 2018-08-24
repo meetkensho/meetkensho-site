@@ -598,6 +598,23 @@ section, article, footer, header {
 
 /* =============== GLOBAL STYLES =================== */
 
+.fade {
+  animation: fading 2s;
+  animation-play-state: paused;
+}
+
+@keyframes fading {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* header */
 
 header nav {
