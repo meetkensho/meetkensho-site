@@ -1,4 +1,4 @@
-section, footer {
+section, article, footer, header {
   max-width: 1280px;
   margin: auto;
   box-sizing: border-box;
@@ -8,9 +8,7 @@ section, footer {
   color: rgba(255, 115, 71, 1.0);
 }
 
-.orng-bg {
-  background-color: rgba(255, 115, 71, 1.0);
-}
+/* ============ HOMEPAGE SPECIFIC ============ */
 
 /* HERO SECTION */
 
@@ -59,6 +57,7 @@ section, footer {
   font-weight: 500;
   font-size: 18px;
   text-align: center;
+  background-color: rgba(255, 115, 71, 1.0);
 }
 
 .hero-intro .cta {
@@ -493,6 +492,154 @@ section, footer {
   width: 25px;
 }
 
+/* =============== FAQ Page Specific =================== */
+
+
+/* hero section */
+
+.faqhero {
+  min-height: 335px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/faqbg.png");
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+
+.faqhero h1 {
+  font-size: 68px;
+  letter-spacing: -3.81px;
+  font-family: "DomaineSansText-Regular", Optima, Georgia, serif;
+  margin: 30px 0;
+}
+
+.faqhero p {
+  max-width: 400px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.faqhero p a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid white;
+}
+
+/* FAQ info */
+
+.faqarticle {
+  margin-top: 50px;
+}
+
+.faqarticle section {
+  box-sizing: border-box;
+  max-width: 950px;
+  margin: 0;
+  padding: 20px 20px 20px 140px;
+}
+
+.faqarticle h2 {
+  font-size: 44px;
+  letter-spacing: -1.69px;
+  font-family: "DomaineSansText-Regular", Optima, Georgia, serif;
+  margin: 30px 0;
+}
+
+.question {
+  margin: 70px 0;
+}
+
+.question h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 15px 0;
+  line-height: 1.5em;
+}
+
+.question p {
+  color: rgba(20, 31, 56, 0.6);
+  line-height: 1.5em;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .faqarticle section {
+    padding: 20px 20px 20px 40px;
+  }
+
+  .question {
+    margin: 20px 0;
+  }
+}
+
+/* ================= TERMS AND CONDITIONS ================ */
+
+.tc {
+  max-width: 1000px;
+  font-weight: 500;
+  line-height: 1.5em;
+  padding: 20px;
+}
+
+.tc h1 {
+  font-family: "DomaineSansText-Regular", Optima, Georgia, serif;
+  font-size: 44px;
+  margin: 30px 0;
+  letter-spacing: -1.7px;
+  text-align: center;
+  margin: 50px auto;
+  line-height: 1.5em;
+}
+
+
+/* =============== GLOBAL STYLES =================== */
+
+/* header */
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+header nav img {
+  height: 43px;
+  margin: 10px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a.become-provider {
+  font-size: 18px;
+  color: rgba(255, 115, 71, 1.0);
+  font-weight: 500;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgba(255, 115, 71, 1.0);
+}
+
+@media screen and (max-width: 1000px) {
+  header nav, header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav ul li {
+    margin: 10px 0;
+  }
+}
+
 /* footer */
 
 footer {
@@ -570,7 +717,7 @@ footer .copyright p, footer .copyright a {
     padding: 20px 0;
   }
 
-  .practice, form, .howitworks, .joinus {
+  .practice, form, .howitworks, .joinus, .faqarticle section {
     padding: 20px;
   }
 
