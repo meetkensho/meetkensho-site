@@ -82,7 +82,7 @@ section, footer {
 
 .testimonials {
   border-bottom: 1px solid #eee;
-  padding: 60px 0 10px;
+  padding: 60px 20px 10px;
 }
 
 .testimonials .previous img, .testimonials .next img {
@@ -120,8 +120,14 @@ section, footer {
 .testimonial-holder .testimonial-person {
   display: flex;
   align-items: center;
-  width: 415px;
+  max-width: 415px;
   margin: 20px auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .testimonial-holder .testimonial-person {
+    flex-direction: column;
+  }
 }
 
 .testimonial-person img {
@@ -174,7 +180,7 @@ section, footer {
   padding: 20px 40px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .threeup {
     flex-direction: column;
   }
@@ -207,16 +213,6 @@ section, footer {
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
-  .practices {
-    flex-direction: column;
-  }
-  
-  .practices > div {
-    margin: 30px 0;
-  }
-}
-
 .practices > div {
   flex: 1;
   box-sizing: border-box;
@@ -224,6 +220,20 @@ section, footer {
 
 .practice-info {
   padding: 0 0 0 80px;
+}
+
+@media screen and (max-width: 1000px) {
+  .practices {
+    flex-direction: column;
+  }
+  
+  .practices > div {
+    margin: 30px 0;
+  }
+
+  .practice-info {
+    padding: 0 0 0 0;
+  }
 }
 
 .practice-info h3 {
@@ -295,12 +305,6 @@ section, footer {
   border-bottom: 1px solid #eee;
 }
 
-@media screen and (max-width: 768px) {
-  .providers {
-    flex-direction: column;
-  }
-}
-
 .providers > div {
   flex: 1 50%;
 }
@@ -312,6 +316,13 @@ section, footer {
 .providers-text {
   padding: 80px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  .providers {
+    flex-direction: column;
+    padding: 30px;
+  }
 }
 
 .providers-text .intro {
@@ -367,6 +378,12 @@ section, footer {
   display: flex;
 }
 
+@media screen and (max-width: 1000px) {
+  .why .twoup {
+    flex-direction: column;
+  }
+}
+
 .why .twoup > div {
   flex: 1;
   flex-basis: 50%;
@@ -377,6 +394,16 @@ section, footer {
   background-size: cover;
   background-position: center center;
   transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1000px) {
+  .whyimg {
+    min-height: 300px;
+  }
+
+  .why-head {
+    padding-bottom: 20px;
+  }
 }
 
 .whytext {
@@ -494,8 +521,9 @@ footer nav ul li a {
   font-weight: 500;
   color: white;
   text-decoration: none;
-  margin: 0 20px;
+  margin: 10px 20px;
   font-size: 18px;
+  display: block;
 }
 
 footer .jobs p {
@@ -522,5 +550,57 @@ footer .copyright p, footer .copyright a {
   color: rgba(255,255,255,0.5);
   text-decoration: none;
   font-size: 12px;
+}
+
+@media screen and (max-width: 1000px) {
+  footer nav ul {
+    flex-direction: column;
+  }
+
+  footer nav ul li a {
+    margin: 10px 0;
+  }
+}
+
+/* FIX ALL THE PADDING for tiny phones */
+
+@media screen and (max-width: 486px) {
+
+  .providers-text, .why-head, .whytext, .threeup .col, .threeup {
+    padding: 20px 0;
+  }
+
+  .practice, form, .howitworks, .joinus {
+    padding: 20px;
+  }
+
+  .practice-card {
+    min-height: 80px;
+  }
+
+  .practice-card img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .practice-card span {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  .joinus form {
+    flex-direction: column;
+  }
+
+  .joinus form input[type=email] {
+    flex-grow: 1;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .joinus form input[type=submit] {
+    flex-grow: 1;
+    border-radius: 0 0 4px 4px;
+    padding: 15px;
+  }
 }
 
