@@ -88,6 +88,7 @@ section, article, footer, header {
   width: 9px;
   height: 8px;
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .testimonials .previous {
@@ -599,7 +600,7 @@ section, article, footer, header {
 /* =============== GLOBAL STYLES =================== */
 
 .fade {
-  animation: fading 2s;
+  animation: fading 2s infinite;
   animation-play-state: paused;
 }
 

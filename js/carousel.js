@@ -18,6 +18,7 @@ function appendTestimonial(idx) {
   const { holder, text, image, nameHolder, bioHolder } = elements
   const { content, imagePath, name, bio } = testimonials[idx]
   holder.style.animationPlayState = 'running'
+  holder.style.WebkitAnimationPlayState = 'running'
   setTimeout(() => {
     text.innerHTML = content
     image.setAttribute('src', imagePath)
@@ -26,7 +27,8 @@ function appendTestimonial(idx) {
   }, 1000)
   setTimeout(() => {
     holder.style.animationPlayState = 'paused'
-  })
+    holder.style.WebkitAnimationPlayState = 'paused'
+  }, 2000)
 
 }
 
