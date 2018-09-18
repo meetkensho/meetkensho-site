@@ -52,7 +52,7 @@ article, header, .container {
   color: white;
   padding: 20px;
   text-decoration: none;
-  width: 167px;
+  width: fit-content;
   border-radius: 4px;
   font-weight: 500;
   font-size: 18px;
