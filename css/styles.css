@@ -507,14 +507,15 @@ article, header, .container {
   border-radius: 0 4px 4px 0;
 }
 
-.joinus .social {
+.social {
   display: flex;
   width: 160px;
   margin: auto;
   justify-content: space-between;
+  padding: 50px
 }
 
-.joinus .social img {
+.social img {
   height: 25px;
 }
 
